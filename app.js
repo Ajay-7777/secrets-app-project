@@ -57,8 +57,8 @@ passport.deserializeUser(function(id, done) {
 });
 
 passport.use(new GoogleStrategy({
-    clientID: process.env.CLIENT_ID,
-    clientSecret: process.env.CLIENT_SECRET,
+    clientID:UYSDGUDGFSGIDFGDF,
+    clientSecret: this is our secret,
     callbackURL: "http://floating-woodland-93453.herokuapp.com/auth/google/secrets",
     userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo"
   },
